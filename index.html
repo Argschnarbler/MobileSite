@@ -7,13 +7,24 @@
     <title>Jacob Meikle | Portfolio</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/custom.css" />
-    <script src="js/modernizr.js"></script>
+    <script src="js/jquery.js"></script>
     
     <!-- custom fonts -->
     <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+      
+    <!-- switch to mobile? -->
+    <script src="js/mobileDetector.js"></script>
+    <script>
+    if($.browser.mobile) {
+
+   		window.location = 'http://webdesign4.georgianc.on.ca/~200193940/assignment2/mobile/'; 
+
+	}	
+    </script>
     
   </head>
   <body>
+
   	
     <!-- Nav -->
     
@@ -211,7 +222,6 @@
 	
 	 <!-- Javascript Libraries -->
     
-    <script src="js/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.magellan.js"></script>
     <script src="js/linkScroller.js"></script>
