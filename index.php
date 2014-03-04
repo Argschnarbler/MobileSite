@@ -13,14 +13,30 @@
     <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
       
     <!-- switch to mobile? -->
-    <script src="js/mobileDetector.js"></script>
-    <script>
-    if($.browser.mobile) {
-
-   		window.location = 'http://webdesign4.georgianc.on.ca/~200193940/assignment2/mobile/'; 
-
+    <?php
+	session_start();
+	
+	if(empty($_SESSION['visit'])){
+		//output
+		
+		echo'
+		    <script src="js/mobileDetector.js"></script>
+		    <script>
+		    if($.browser.mobile) {
+		
+		   		window.location = \'http://webdesign4.georgianc.on.ca/~200193940/assignment2/mobile/\'; 
+		
+			}	
+		    </script>
+		    ';
+		
 	}	
-    </script>
+	
+	$_SESSION['visit'] = "done";
+
+	?>
+
+
     
   </head>
   <body>

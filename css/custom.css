@@ -2,52 +2,19 @@
 
 
 /* custom styles*/  
-#aboutme, #home, #contact, #res, #projects, #services{
+body{
 	background-image: url("../img/bg.png");
 	background-repeat: y;
 }
 
-#siteLink, #aboutme, #contact, #projects, #home, #res{
-	text-align: center;
-}
-
-#services table{
-	margin: auto;
-}
-
-#services table td{
-	padding: 5px 10px;
-}
-
-
-.left{
-	text-align:left;
-}
-
-#bioImage, #resImage{
-	height: 100px;
-	
-}
 body, a, h1, h2, h3, h4, h5, h6{
-		font-family: 'Love Ya Like A Sister', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif, cursive !important;
+		font-family: 'Love Ya Like A Sister', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif, cursive;
 }
 
-a{
-	text-decoration: none;
-}
-
-#bannerImg{
-	float:left;
-	max-height:20px;
-	position:abosolute;
-}
-	
-}
 
 #resume{
 	max-height: 500px;
 	padding: 2%;
-	
 }
 
 #resume-small{
@@ -59,18 +26,15 @@ a{
 
 section{
 	min-height:400px;
-	
 }
 
 .navAnchor{
 	position:relative;
 	top:-25px;
-
 }
 
 #keepConnected{
 	position: fixed;
-	
 }
 
 .icon{
@@ -78,17 +42,12 @@ section{
 }
 
 #bioArticle{
-	width:60%
-	
-}
-
-.projPic{
-	height: 150px;
+	width:60%;
 }
 
 #bioImage{
 	background-color:#262626;
-	padding: 3px;
+	padding: 1%;
 }
 
 #aboutBG{
@@ -98,6 +57,12 @@ section{
 #mainBody{
 	
 	border: #000000 solid 1px;
+}
+
+#bannerImg{
+	
+	max-height:30px;
+	position:abosolute;
 }
 
 h1{

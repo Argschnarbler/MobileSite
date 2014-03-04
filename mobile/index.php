@@ -1,3 +1,7 @@
+<?php
+session_start();
+$_SESSION['visit'] = "done";
+?>
 <!doctype html>
 <!-- File: index.html Author: Jacob Meikle Website: Assignment1 File Desc: This is the entire single page site. -->
 <html class="no-js" lang="en">
