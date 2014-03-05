@@ -1,5 +1,5 @@
 <!doctype html>
-<!-- File: index.php Author: Jacob Meikle Website: Assignment2 File Desc: This is the entire single page desktop site. -->
+<!-- File: index.php Author: Jacob Meikle Website: Assignment2 File Desc: This is the entire single page desktop site. --> 
 <html class="no-js" lang="en">
   <head>
     <meta charset="utf-8" />
